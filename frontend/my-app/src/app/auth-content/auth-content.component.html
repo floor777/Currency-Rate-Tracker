@@ -1,0 +1,17 @@
+<div class="row justify-content-md-center">
+    <div class="col-4">
+        <div class="card" style="width: 18rem">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Backend response
+                <p class="card-text">Content:</p>
+                <ul>
+                    <li *ngFor="let line of data">{{line}}</li>
+                </ul>
+                </h5>
+                <button (click)="sendTestRequest()">Send test request</button>
+            </div>
+        </div>
+    </div>
+
+</div>
